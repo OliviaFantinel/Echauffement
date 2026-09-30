@@ -9,7 +9,7 @@ class Program
          */
         
         // Etape 1 : présentez-vous en écrivant votre prénom et votre jeu préféré
-        Console.WriteLine("Bonjour, je suis Olivia Fantinel.\n" + "Je suis une grande fan de Slay the Spire.");
+        Console.WriteLine("Bonjour, je suis Olivia Fantinel.\nJe suis une grande fan de Slay the Spire.");
 
         // Etape 2 : demandez à l'utilisateur son prénom et son âge
         Console.WriteLine("Comment vous appelez-vous?");
@@ -18,10 +18,22 @@ class Program
         int age = Convert.ToInt32(Console.ReadLine());
 
         // Etape 3 : affichez soit "Tu es majeur", soit "Tu es mineur" dépendant de l'âge fourni par l'utilisateur
-
+        Console.WriteLine("Tu es " + (age < 18 ? "mineur." : "majeur."));
+        
         // Etape 4 : demandez maintenant à l'utilisateur combien d'euro il a (nombre décimal)
+        Console.WriteLine("Combien d'euros a tu sur toi?");
+        float money = Convert.ToSingle(Console.ReadLine());
 
         // Etape 5 : affichez maintenant 4 choix d'armes avec chacune un prix
+        Console.WriteLine(
+            "Écoute " + name + ", c'est la crise. Les prix des jeux vidéos ont explosés. Je me suis donc reconvertie dans le recel d'armes digitales.\n" +
+            "Laquelle de ces armes pourrait t'intéresser? Écris le nombre de l'arme qui t'intéresse.\n" +
+            "1. Un pistolet à eau tiède;\n" +
+            "2. Un gratouilleur de dos;\n" +
+            "3. Une lampe torche et une loupe;\n" +
+            "4. Un vrai flingue avec de vraies balles.\n"
+            );
+        
 
         // Etape 6 : laissez l'utilisateur choisir l'une de ces 4 armes en indiquant un nombre entre 1 et 4
 
