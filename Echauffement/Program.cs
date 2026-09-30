@@ -12,7 +12,11 @@ class Program
         Console.WriteLine("Bonjour, je suis Olivia Fantinel.\n" + "Je suis une grande fan de Slay the Spire.");
 
         // Etape 2 : demandez à l'utilisateur son prénom et son âge
-        
+        Console.WriteLine("Comment vous appelez-vous?");
+        string name = Console.ReadLine();
+        Console.WriteLine("Quel est votre âge?");
+        int age = Convert.ToInt32(Console.ReadLine());
+
         // Etape 3 : affichez soit "Tu es majeur", soit "Tu es mineur" dépendant de l'âge fourni par l'utilisateur
 
         // Etape 4 : demandez maintenant à l'utilisateur combien d'euro il a (nombre décimal)
