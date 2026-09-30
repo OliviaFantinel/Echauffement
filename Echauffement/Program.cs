@@ -28,15 +28,15 @@ class Program
         Console.WriteLine(
             "Écoute " + name + ", c'est la crise. Les prix des jeux vidéos ont explosés. Je me suis donc reconvertie dans le recel d'armes digitales.\n" +
             "Laquelle de ces armes pourrait t'intéresser? Écris le nombre de l'arme qui t'intéresse.\n" +
-            "1. Un pistolet à eau tiède;\n" +
-            "2. Un gratouilleur de dos;\n" +
-            "3. Une lampe torche et une loupe;\n" +
-            "4. Un vrai flingue avec de vraies balles.\n"
+            "1. Un pistolet à eau tiède pour 10€;\n" +
+            "2. Un gratouilleur de dos pour 5€;\n" +
+            "3. Une lampe torche et une loupe pour 15€;\n" +
+            "4. Un vrai flingue avec de vraies balles pour 900€.\n"
             );
         
-
         // Etape 6 : laissez l'utilisateur choisir l'une de ces 4 armes en indiquant un nombre entre 1 et 4
-
+        
+        
         // Etape 7a : vérifiez si l'utilisateur a assez d'argent par rapport à la somme qu'il avait rentré à l'étape 4
 
         // Etape 7b : modifiez l'étape 7a pour ajouter un connecteur logique qui vérifie que l'utilisateur est majeur en plus d'avoir assez d'argent
